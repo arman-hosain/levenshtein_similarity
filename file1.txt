@@ -1,0 +1,8 @@
+; file2.ll
+define i32 @compute(i32 %a, i32 %b) {
+entry:
+  %sum = add i32 %a, %b
+  %product = mul i32 %a, %b
+  %result = add i32 %sum, %product
+  ret i32 %result
+}

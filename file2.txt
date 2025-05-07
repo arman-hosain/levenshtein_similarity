@@ -1,0 +1,6 @@
+; file2.ll
+define i32 @compute(i32 %a, i32 %b) {
+entry:
+  %sum = add i32 %a, %b
+  ret i32 %result
+}
